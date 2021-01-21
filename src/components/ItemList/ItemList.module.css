@@ -1,0 +1,19 @@
+.item_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item_wrap {
+  flex: 1;
+}
+
+ul {
+  padding: 0;
+}
+
+@media ( max-width: 650px) {
+  .item_list {
+    font-size: 10px;
+  }
+}

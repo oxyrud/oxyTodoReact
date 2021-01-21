@@ -1,0 +1,102 @@
+ body {
+  padding-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  background: url(../App/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg);
+}
+
+.app_wrap {
+  display: flex;
+  margin: auto;
+  width: 40%;
+}
+
+.sidebar {
+  padding-top: 40px;
+  grid-area: sidebar;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.sidebar_items {
+  display: flex;
+  flex-direction: column;
+
+}
+.sidebar_item {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.content {
+  grid-area: content;
+  width: 100%;
+}
+
+.logo_img {
+  width: 80px;
+  margin-bottom: 20px;  
+}
+
+.link:active {
+  color: #a4a4a4;
+}
+
+@media ( max-width: 950px) {
+
+.app_wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  flex-direction: row;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.sidebar_items {
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 5px;
+
+}
+
+.logo_img {
+  margin-left: 0;
+  margin-right: 20px;
+  width: 15%;
+}
+
+}
+
+@media ( max-width: 850px){
+  .logo_img {
+    display: none;
+  }
+  .sidebar {
+     margin-right: 0;
+  }
+  .sidebar_items {
+    justify-content: space-around;
+  }
+
+}
+
+@media ( max-width: 650px) {
+  .sidebar_items {
+    font-size: 13px;
+    padding-bottom: 20px;
+  }
+  .sidebar_item {
+    margin: 0;
+  }
+}
+
+@media ( max-width: 650px) {
+  .sidebar_items {
+    font-size: 7px;
+  }
+}

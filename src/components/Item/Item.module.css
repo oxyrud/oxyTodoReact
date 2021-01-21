@@ -1,0 +1,19 @@
+.item{
+  color: #0b173b;
+  display: flex;
+}
+
+.done {
+  color:#00bfff;
+}
+
+.item_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item_wrap {
+  flex: 1;
+}
+

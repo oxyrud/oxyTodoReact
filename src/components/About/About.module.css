@@ -1,0 +1,152 @@
+.about_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1,h2 {
+  font-size: 20px;
+  color: #0b173b;
+}
+
+.about_avatar {
+  display: flex;
+}
+
+.avatar_img {
+  width: 140px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.about_me {
+  padding-left: 30px;
+}
+
+a {
+  color: #0b173b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  opacity: .5;
+}
+
+.repo {
+  border: 1px solid #BDBDBD;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.repo_info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.language {
+  position: relative;
+  padding-left: 20px;
+}
+
+.html:before, .css:before, .js:before {
+    content: '';
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+}
+
+.html:before {
+  background: #E00000;
+}
+
+.css:before {
+  background: #0094FF;
+}
+
+.js:before {
+  background: #FFC700;
+}
+
+.fork_img {
+  width: 14px;
+  height: 14px;
+  margin-right: 4px; 
+  margin-top: 5px;
+}
+
+.fork {
+  padding-left: 10px;
+}
+
+.star_img {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px; 
+  margin-top: 5px;
+}
+
+.stargazers {
+  padding-left: 10px;
+}
+
+.updated {
+  padding-left: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination_button {
+  border: 1.2px solid #BDBDBD;
+  box-sizing: border-box;
+  border-radius: 37px;
+  color: #585858;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 20px;  
+  outline: none;
+}
+
+.pagination_button:hover {
+  background: #585858;
+  color: white;
+  border: 1.2px solid #585858;
+}
+
+.pagination__button:active {
+  border: 2px solid #151515;
+}
+
+@media ( max-width: 700px){
+
+.repo {
+  padding: 5px;
+
+}
+
+.about_wrap {
+  flex-direction: column;
+}
+
+.avatar_img {
+  width: 100px;
+}
+}
+
+@media ( max-width: 550px) {
+  .updated {
+    display: none;
+  }
+
+  .pagination_button {
+    margin: 0;
+  }
+}
