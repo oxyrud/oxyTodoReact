@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/oxyrudTodoReact/static/css/main.51fa5916.chunk.css",
+    "main.js": "/oxyrudTodoReact/static/js/main.010a2ee7.chunk.js",
+    "main.js.map": "/oxyrudTodoReact/static/js/main.010a2ee7.chunk.js.map",
+    "runtime-main.js": "/oxyrudTodoReact/static/js/runtime-main.7cd3e2f0.js",
+    "runtime-main.js.map": "/oxyrudTodoReact/static/js/runtime-main.7cd3e2f0.js.map",
+    "static/js/2.f0e84c41.chunk.js": "/oxyrudTodoReact/static/js/2.f0e84c41.chunk.js",
+    "static/js/2.f0e84c41.chunk.js.map": "/oxyrudTodoReact/static/js/2.f0e84c41.chunk.js.map",
+    "index.html": "/oxyrudTodoReact/index.html",
+    "precache-manifest.ab1280b669c6c08888ddbcad843fb044.js": "/oxyrudTodoReact/precache-manifest.ab1280b669c6c08888ddbcad843fb044.js",
+    "service-worker.js": "/oxyrudTodoReact/service-worker.js",
+    "static/css/main.51fa5916.chunk.css.map": "/oxyrudTodoReact/static/css/main.51fa5916.chunk.css.map",
+    "static/js/2.f0e84c41.chunk.js.LICENSE.txt": "/oxyrudTodoReact/static/js/2.f0e84c41.chunk.js.LICENSE.txt",
+    "static/media/Fork.svg": "/oxyrudTodoReact/static/media/Fork.b7c30d82.svg",
+    "static/media/WHS_black.svg": "/oxyrudTodoReact/static/media/WHS_black.dc001e86.svg",
+    "static/media/facebook.svg": "/oxyrudTodoReact/static/media/facebook.584b642a.svg",
+    "static/media/github.svg": "/oxyrudTodoReact/static/media/github.3feade3d.svg",
+    "static/media/mail.svg": "/oxyrudTodoReact/static/media/mail.20386136.svg",
+    "static/media/star.svg": "/oxyrudTodoReact/static/media/star.a3b344a2.svg",
+    "static/media/telegram.svg": "/oxyrudTodoReact/static/media/telegram.4073458b.svg",
+    "static/media/App.module.css": "/oxyrudTodoReact/static/media/thomas-heintz-0tgMnMIYQ9Y-unsplash.15df3a30.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7cd3e2f0.js",
+    "static/js/2.f0e84c41.chunk.js",
+    "static/css/main.51fa5916.chunk.css",
+    "static/js/main.010a2ee7.chunk.js"
+  ]
+}
