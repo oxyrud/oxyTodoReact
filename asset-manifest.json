@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/oxyrudTodoReact/static/css/main.51fa5916.chunk.css",
-    "main.js": "/oxyrudTodoReact/static/js/main.38601473.chunk.js",
-    "main.js.map": "/oxyrudTodoReact/static/js/main.38601473.chunk.js.map",
+    "main.js": "/oxyrudTodoReact/static/js/main.8d8526ae.chunk.js",
+    "main.js.map": "/oxyrudTodoReact/static/js/main.8d8526ae.chunk.js.map",
     "runtime-main.js": "/oxyrudTodoReact/static/js/runtime-main.7cd3e2f0.js",
     "runtime-main.js.map": "/oxyrudTodoReact/static/js/runtime-main.7cd3e2f0.js.map",
     "static/js/2.f0e84c41.chunk.js": "/oxyrudTodoReact/static/js/2.f0e84c41.chunk.js",
     "static/js/2.f0e84c41.chunk.js.map": "/oxyrudTodoReact/static/js/2.f0e84c41.chunk.js.map",
     "index.html": "/oxyrudTodoReact/index.html",
-    "precache-manifest.1fb72ed081e93fe9fd41f9c27b30d7b3.js": "/oxyrudTodoReact/precache-manifest.1fb72ed081e93fe9fd41f9c27b30d7b3.js",
+    "precache-manifest.2790049ce777c4c340589c0de6b3dda7.js": "/oxyrudTodoReact/precache-manifest.2790049ce777c4c340589c0de6b3dda7.js",
     "service-worker.js": "/oxyrudTodoReact/service-worker.js",
     "static/css/main.51fa5916.chunk.css.map": "/oxyrudTodoReact/static/css/main.51fa5916.chunk.css.map",
     "static/js/2.f0e84c41.chunk.js.LICENSE.txt": "/oxyrudTodoReact/static/js/2.f0e84c41.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.7cd3e2f0.js",
     "static/js/2.f0e84c41.chunk.js",
     "static/css/main.51fa5916.chunk.css",
-    "static/js/main.38601473.chunk.js"
+    "static/js/main.8d8526ae.chunk.js"
   ]
 }
