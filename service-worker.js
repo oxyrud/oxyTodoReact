@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/oxyrudTodoReact/precache-manifest.ab1280b669c6c08888ddbcad843fb044.js"
+  "/oxyrudTodoReact/precache-manifest.1fb72ed081e93fe9fd41f9c27b30d7b3.js"
 );
 
 self.addEventListener('message', (event) => {

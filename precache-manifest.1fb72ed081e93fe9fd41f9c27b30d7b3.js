@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fdfdaff0a3f94fa6f8743be246d0c80b",
+    "revision": "0bb5576fd8f36db397695759be293fd2",
     "url": "/oxyrudTodoReact/index.html"
   },
   {
-    "revision": "cb705e65ac26314605db",
+    "revision": "3ca9985aa085fd2cf73f",
     "url": "/oxyrudTodoReact/static/css/main.51fa5916.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oxyrudTodoReact/static/js/2.f0e84c41.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cb705e65ac26314605db",
-    "url": "/oxyrudTodoReact/static/js/main.010a2ee7.chunk.js"
+    "revision": "3ca9985aa085fd2cf73f",
+    "url": "/oxyrudTodoReact/static/js/main.38601473.chunk.js"
   },
   {
     "revision": "0fb7e844dc9e1024f360",
