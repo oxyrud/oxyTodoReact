@@ -21,20 +21,20 @@ class About extends React.Component {
         language: '',
         updated: '',
         firstRepo: 0,
-        lastRepo:1
+        lastRepo:2
 	};
 
 	lastPage = () => {
 		this.setState({
-			firstRepo: this.state.firstRepo - 1,
-			lastRepo: this.state.lastRepo - 1,
+			firstRepo: this.state.firstRepo - 2,
+			lastRepo: this.state.lastRepo - 2,
 		});
 	};
 
 	nextPage = () => {
 		this.setState({
-			firstRepo: this.state.firstRepo + 1,
-			lastRepo: this.state.lastRepo + 1,
+			firstRepo: this.state.firstRepo + 2,
+			lastRepo: this.state.lastRepo + 2,
 		});
 	};
 
@@ -91,7 +91,7 @@ class About extends React.Component {
                 </div>
             </div>
 	            <h2> { isLoading ? <CircularProgress /> : 'My  repos'}</h2>
-                {!isLoading &&<ol className={styles.repo}>{repoListPage.map(repo => (<li key = {repo.id}>
+                {!isLoading && <ol className={styles.repo}>{repoListPage.map(repo =>(<li key = {repo.id}>
                 		<a href={repo.html_url}>{repo.name}</a>
                 		<div className={styles.repo_info}>
                 		    <span className={classnames({
@@ -123,7 +123,7 @@ class About extends React.Component {
                 <div className={styles.pagination}>
                     <button className={styles.pagination_button}
                         onClick={this.lastPage}
-                        disabled={firstRepo < 1}
+                        disabled={firstRepo < 2}
                     >
                     Back
                     </button>
